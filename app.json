@@ -32,8 +32,8 @@
       "description": "Instructions displayed in the web application for users to follow before installing Strap (will be wrapped in `<li>` tags).",
       "required": false
     },
-    "CUSTOM_HOMEBREW_TAP": {
-      "description": "an optional Homebrew tap to install with 'brew tap'.",
+    "CUSTOM_HOMEBREW_TAPS": {
+      "description": "optional Homebrew taps to install with 'brew tap'.",
       "required": false
     },
     "CUSTOM_BREW_COMMAND": {

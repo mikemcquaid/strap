@@ -68,7 +68,7 @@ Strap is also available as a Docker image on [Docker Hub (`mikemcquaid/strap`)](
 - `WEB_CONCURRENCY`: the number of Unicorn (web server) processes to run (defaults to 3).
 - `STRAP_ISSUES_URL`: the URL where users should file issues (defaults to no URL).
 - `STRAP_BEFORE_INSTALL`: instructions displayed in the web application for users to follow before installing Strap (wrapped in `<li>` tags).
-- `CUSTOM_HOMEBREW_TAP`: an optional Homebrew tap to install with `brew tap`. Specify multiple arguments to brew tap by separating values with spaces.
+- `CUSTOM_HOMEBREW_TAPS`: optional Homebrew taps to install with `brew tap`. Specify multiple arguments to brew tap by separating values with spaces. Specify multiple taps by separating values with commas.
 - `CUSTOM_BREW_COMMAND`: a single `brew` command that is run after all other stages have completed.
 
 ## Status
